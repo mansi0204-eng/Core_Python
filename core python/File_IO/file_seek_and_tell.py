@@ -1,0 +1,7 @@
+file=open("D:/test.txt","r")
+print(file.tell())
+file.seek(5)
+str=file.read(4)
+print(str)
+print(file.tell())
+file.close()

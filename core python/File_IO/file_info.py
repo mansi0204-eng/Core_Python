@@ -1,0 +1,6 @@
+file=open("D:/test.txt","r")
+print("file Name:",file.name)
+print("Mode of opening",file.mode)
+print("Is file closed yet:",file.closed)
+file.close()
+print("Is file clossed after closing:",file.closed)
